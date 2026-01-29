@@ -69,7 +69,7 @@ export default function Page() {
       title: "Next.js Hygraph",
       description: "Moddat tema för Shopify i V0. Hygraph som CMS",
       tech: "hygraph" as const,
-      url: "https://www.ioarts.ink",
+      url: "https://v0-hygraphioarts2v0.vercel.app",
     },
     {
       title: "Webflow",
