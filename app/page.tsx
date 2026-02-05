@@ -48,6 +48,12 @@ export default function Page() {
       url: "https://ioarts.se",
     },
     {
+      title: "Next.js Hygraph",
+      description: "Moddat tema för Shopify i V0. Hygraph som CMS",
+      tech: "hygraph" as const,
+      url: "https://v0-hygraphioarts2v0.vercel.app",
+    },
+    {
       title: "Next.js Sanity",
       description: "Gjord med V0. Har hämtat designen från ovan med Figma",
       tech: "sanity" as const,
@@ -64,12 +70,6 @@ export default function Page() {
       description: "Gjord med V0 från scratch med Contentful som CMS",
       tech: "contentful" as const,
       url: "https://v0-mittcontentful.vercel.app",
-    },
-    {
-      title: "Next.js Hygraph",
-      description: "Moddat tema för Shopify i V0. Hygraph som CMS",
-      tech: "hygraph" as const,
-      url: "https://v0-hygraphioarts2v0.vercel.app",
     },
     {
       title: "Webflow",
