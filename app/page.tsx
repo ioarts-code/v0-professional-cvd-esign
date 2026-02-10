@@ -43,9 +43,9 @@ export default function Page() {
   const portfolio = [
     {
       title: "Wordpress",
-      description: "Woocommerce, Elementor. Från scratch med endast gratis-plugins",
+      description: "Woocommerce och Elementor",
       tech: "wordpress" as const,
-      url: "https://ioarts.se",
+      url: "https://www.ioarts.ink",
     },
     {
       title: "Next.js Hygraph",
