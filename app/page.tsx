@@ -43,7 +43,7 @@ export default function Page() {
   const portfolio = [
     {
       title: "Wordpress",
-      description: "Woocommerce, Elementor. Från scratch med endast gratis-plugins",
+      description: "Woocommerce och Elementor",
       tech: "wordpress" as const,
       url: "https://ioarts.se",
     },
