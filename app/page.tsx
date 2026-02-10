@@ -77,12 +77,7 @@ export default function Page() {
       tech: "webflow" as const,
       url: "https://ioartseu.webflow.io",
     },
-    {
-      title: "Tilde",
-      description: "Tilde: En Youtube-playlist app med sparfunktion",
-      tech: "webflow" as const,
-      url: "https://v0-v0-tilde-youappmain.vercel.app",
-    },
+
   ]
 
   const skills = {
