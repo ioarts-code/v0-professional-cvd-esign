@@ -45,7 +45,7 @@ export default function Page() {
       title: "Wordpress",
       description: "Woocommerce och Elementor",
       tech: "wordpress" as const,
-      url: "https://ioarts.se",
+      url: "https://www.ioarts.ink",
     },
     {
       title: "Next.js Hygraph",
