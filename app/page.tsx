@@ -231,15 +231,54 @@ export default function Page() {
 
           <Section title="Anställningsstöd">
             <div className="space-y-4">
-              <p className="text-gray-700 leading-relaxed">
-                Här kan du läsa vad som gäller för Anställningsstöd/Lönebidrag/Lönestöd
+              <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                Om ni tvekar att anställa så finns en möjlighet för er att välja rekryteringsmetod efter erat behov
+                tidsmässigt och ekonomiskt. Ni kan såklart välja en heltid/deltidsanställning enligt det vanliga
+                sättet om ni vill. Ni har även en möjlighet att prova med en praktik på tex 50% efter det behov ni
+                har. Vi kan sedan diskutera om ni tycker det har fungerat bra för alla parter och justera. Ni kommer
+                att ha möjlighet till stöd enligt dom reglerna som gäller. Jag är godkänd för
+                Anställningsstöd/Lönebidrag/Lönestöd vilket namn det blir på aktiviteten är senare mer en formalitet
+                men ni måste då ändå uppfylla vissa krav.
               </p>
-              <button
-                onClick={() => setIsModalOpen(true)}
-                className="bg-black text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-rose-300 hover:text-black transition-colors duration-300 w-full sm:w-auto"
-              >
-                Klicka för info
-              </button>
+
+              <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                Då jag varit borta från arbetsmarknaden en tid så kommer jag givetvis att behöva komma in i arbetet på
+                ett realistiskt sätt. Heltid är målsättningen här, så beroende på vem du är som läser detta så kanske
+                du som exempel redan valt deltid som utgångspunkt och en provanställning. Då behöver vi inte tänka på
+                praktik eller liknande utan ni gör bara det ni brukar göra. Samma sak gäller såklart vid heltid och
+                provanställning om ni vill det.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                Om ni undrar vad detta erbjudande innebär kan ni få mer information från min jobbcoach på IPS
+                (Individanpassat stöd till arbete) som kommer att sköta kontakten med er.
+              </p>
+
+              <div className="bg-gray-100 rounded-lg p-3 sm:p-4 space-y-2">
+                <h3 className="font-semibold text-gray-900 text-sm sm:text-base">Kontaktinformation:</h3>
+                <p className="text-gray-700 text-sm sm:text-base">
+                  <strong>Jobbcoach:</strong> Per Axelsson
+                  <br />
+                  <strong>E-post:</strong> per.axelsson@stockholm.se
+                  <br />
+                  <strong>Telefon:</strong> 0761249093
+                </p>
+                <p className="text-gray-700 mt-3 text-sm sm:text-base">
+                  <strong>Anders Altmann:</strong>
+                  <br />
+                  <strong>E-post:</strong> brevduva999@proton.me
+                  <br />
+                  <strong>Telefon:</strong> 0702312173
+                </p>
+              </div>
+            </div>
+          </Section>
+
+          <Section title="Kontakta mig">
+            <div className="space-y-4">
+              <p className="text-gray-700 leading-relaxed">
+                För att kontakta mig så når ni mig enklast på min E-Post: brevduva999@proton.me eller via SMS på nummer 0702312173 så ringer jag upp så snart jag kan.
+              </p>
             </div>
           </Section>
         </div>
