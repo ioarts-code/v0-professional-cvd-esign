@@ -232,14 +232,8 @@ export default function Page() {
           <Section title="Anställningsstöd">
             <div className="space-y-4">
               <p className="text-gray-700 leading-relaxed">
-                Här kan du läsa vad som gäller för Anställningsstöd/Lönebidrag/Lönestöd
+                Det finns en möjlighet för er att välja rekryteringsmetod efter erat behov tidsmässigt och ekonomiskt. Ni kan såklart välja en heltid/deltidsanställning enligt det vanliga sättet om ni vill. Om ni väljer en praktik på 25-50-100% efter det behov ni har och vad vi tror blir realistiskt för att komma in i arbetet. Vi kan sedan diskutera efter tre månader om det har fungerat bra för alla. Ni kommer att ha möjlighet till stöd enligt dom reglerna som gäller. Jag är godkänd för Anställningsstöd/Lönebidrag/Lönestöd vilket det blir är senare en formalitet.Det som kommer att vara ett förhinder som jag måste informera om är att jag har lite dåligt självförtroende och kommer att behöva jobba med en lite lägre stressnivå i början för att det ska bli realistiskt.Om ni undrar vad detta erbjudande innebär kan ni få mer information från min jobbcoach på IPS (Individanpassat stöd till arbete) som kommer att sköta kontakten med er. Ni når honom på per.axelsson@stockholm.se eller 0761249093 eller mig på brevduva999@proton.me och 0702312173
               </p>
-              <button
-                onClick={() => setIsModalOpen(true)}
-                className="bg-black text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-rose-300 hover:text-black transition-colors duration-300 w-full sm:w-auto"
-              >
-                Klicka för info
-              </button>
             </div>
           </Section>
 
