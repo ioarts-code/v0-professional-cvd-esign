@@ -115,7 +115,6 @@ export default function Page() {
       <div className="max-w-full sm:max-w-[90%] lg:max-w-[21cm] mx-auto bg-white shadow-2xl">
         <CVHeader
           name="Anders Altmann"
-          title="IT Support Specialist & Web Developer"
           email="brevduva999@proton.me"
           phone="0702312173"
           location="Loviselundsvägen 27, 16559 Hässelby, Sweden"
@@ -360,7 +359,6 @@ export default function Page() {
 
         <CVFooter
           name="Anders Altmann"
-          title="IT Support Specialist & Web Developer"
           email="brevduva999@proton.me"
           phone="0702312173"
           location="Loviselundsvägen 27, 16559 Hässelby, Sweden"
