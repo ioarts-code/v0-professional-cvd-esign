@@ -231,9 +231,46 @@ export default function Page() {
 
           <Section title="Anställningsstöd">
             <div className="space-y-4">
-              <p className="text-gray-700 leading-relaxed">
-                Det finns en möjlighet för er att välja rekryteringsmetod efter erat behov tidsmässigt och ekonomiskt. Ni kan såklart välja en heltid/deltidsanställning enligt det vanliga sättet om ni vill. Om ni väljer en praktik på 25-50-100% efter det behov ni har och vad vi tror blir realistiskt för att komma in i arbetet. Vi kan sedan diskutera efter tre månader om det har fungerat bra för alla. Ni kommer att ha möjlighet till stöd enligt dom reglerna som gäller. Jag är godkänd för Anställningsstöd/Lönebidrag/Lönestöd vilket det blir är senare en formalitet.Det som kommer att vara ett förhinder som jag måste informera om är att jag har lite dåligt självförtroende och kommer att behöva jobba med en lite lägre stressnivå i början för att det ska bli realistiskt.Om ni undrar vad detta erbjudande innebär kan ni få mer information från min jobbcoach på IPS (Individanpassat stöd till arbete) som kommer att sköta kontakten med er. Ni når honom på per.axelsson@stockholm.se eller 0761249093 eller mig på brevduva999@proton.me och 0702312173
+              <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                Om ni tvekar att anställa så finns en möjlighet för er att välja rekryteringsmetod efter erat behov
+                tidsmässigt och ekonomiskt. Ni kan såklart välja en heltid/deltidsanställning enligt det vanliga
+                sättet om ni vill. Ni har även en möjlighet att prova med en praktik på tex 50% efter det behov ni
+                har. Vi kan sedan diskutera om ni tycker det har fungerat bra för alla parter och justera. Ni kommer
+                att ha möjlighet till stöd enligt dom reglerna som gäller. Jag är godkänd för
+                Anställningsstöd/Lönebidrag/Lönestöd vilket namn det blir på aktiviteten är senare mer en formalitet
+                men ni måste då ändå uppfylla vissa krav.
               </p>
+
+              <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                Då jag varit borta från arbetsmarknaden en tid så kommer jag givetvis att behöva komma in i arbetet på
+                ett realistiskt sätt. Heltid är målsättningen här, så beroende på vem du är som läser detta så kanske
+                du som exempel redan valt deltid som utgångspunkt och en provanställning. Då behöver vi inte tänka på
+                praktik eller liknande utan ni gör bara det ni brukar göra. Samma sak gäller såklart vid heltid och
+                provanställning om ni vill det.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                Om ni undrar vad detta erbjudande innebär kan ni få mer information från min jobbcoach på IPS
+                (Individanpassat stöd till arbete) som kommer att sköta kontakten med er.
+              </p>
+
+              <div className="bg-gray-100 rounded-lg p-3 sm:p-4 space-y-2">
+                <h3 className="font-semibold text-gray-900 text-sm sm:text-base">Kontaktinformation:</h3>
+                <p className="text-gray-700 text-sm sm:text-base">
+                  <strong>Jobbcoach:</strong> Per Axelsson
+                  <br />
+                  <strong>E-post:</strong> per.axelsson@stockholm.se
+                  <br />
+                  <strong>Telefon:</strong> 0761249093
+                </p>
+                <p className="text-gray-700 mt-3 text-sm sm:text-base">
+                  <strong>Anders Altmann:</strong>
+                  <br />
+                  <strong>E-post:</strong> brevduva999@proton.me
+                  <br />
+                  <strong>Telefon:</strong> 0702312173
+                </p>
+              </div>
             </div>
           </Section>
 
