@@ -242,6 +242,14 @@ export default function Page() {
               </button>
             </div>
           </Section>
+
+          <Section title="Kontakta mig">
+            <div className="space-y-4">
+              <p className="text-gray-700 leading-relaxed">
+                För att kontakta mig så når ni mig enklast på min E-Post: brevduva999@proton.me eller via SMS på nummer 0702312173 så ringer jag upp så snart jag kan.
+              </p>
+            </div>
+          </Section>
         </div>
 
         {isModalOpen && (
