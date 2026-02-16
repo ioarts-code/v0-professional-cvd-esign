@@ -231,7 +231,7 @@ export default function Page() {
           <Section title="Anställningsstöd">
             <div className="space-y-4">
               <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                Om ni tvekar att anställa så finns en möjlighet för er att välja rekryteringsmetod efter erat behov tidsmässigt och ekonomiskt. Ni kan såklart välja en deltidsanställning 50% enligt det vanliga sättet om ni vill. Ni har även en möjlighet att prova med en praktik på tex 50% efter det behov ni har. Vi kan sedan diskutera om ni tycker det har fungerat bra för alla parter och justera. 
+                Om ni tvekar att anställa så finns en möjlighet för er att välja rekryteringsmetod efter erat behov tidsmässigt och ekonomiskt. Ni kan såklart välja en deltidsanställning 50% enligt det vanliga sättet om ni vill. <strong>Ni har även en möjlighet att prova med en praktik på tex 50% efter det behov ni har.</strong> Vi kan sedan diskutera om ni tycker det har fungerat bra för alla parter och justera. 
                 Ni kommer att ha möjlighet till stöd enligt dom reglerna som gäller. Jag är godkänd för Anställningsstöd/Lönebidrag/Lönestöd vilket namn det blir på aktiviteten är senare mer en formalitet men ni måste då ändå uppfylla vissa krav.
               </p>
 
@@ -294,7 +294,7 @@ export default function Page() {
 
               <div className="p-4 sm:p-6 space-y-4">
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Om ni tvekar att anställa så finns en möjlighet för er att välja rekryteringsmetod efter erat behov tidsmässigt och ekonomiskt. Ni kan såklart välja en deltidsanställning 50% enligt det vanliga sättet om ni vill. Ni har även en möjlighet att prova med en praktik på tex 50% efter det behov ni har. Vi kan sedan diskutera om ni tycker det har fungerat bra för alla parter och justera. 
+                  Om ni tvekar att anställa så finns en möjlighet för er att välja rekryteringsmetod efter erat behov tidsmässigt och ekonomiskt. Ni kan såklart välja en deltidsanställning 50% enligt det vanliga sättet om ni vill. <strong>Ni har även en möjlighet att prova med en praktik på tex 50% efter det behov ni har.</strong> Vi kan sedan diskutera om ni tycker det har fungerat bra för alla parter och justera. 
                   Ni kommer att ha möjlighet till stöd enligt dom reglerna som gäller. Jag är godkänd för Anställningsstöd/Lönebidrag/Lönestöd vilket namn det blir på aktiviteten är senare mer en formalitet men ni måste då ändå uppfylla vissa krav.
                 </p>
 
