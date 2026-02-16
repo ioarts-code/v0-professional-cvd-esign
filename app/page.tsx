@@ -55,7 +55,7 @@ export default function Page() {
     },
     {
       title: "Next.js Sanity",
-      description: "Gjord med V0. Har hämtat designen från ovan med Figma",
+      description: "Gjord med V0. Har hämtat designen från Wordpress med Figma",
       tech: "sanity" as const,
       url: "https://v0-mittsanity2.vercel.app",
     },
@@ -231,26 +231,16 @@ export default function Page() {
           <Section title="Anställningsstöd">
             <div className="space-y-4">
               <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                Om ni tvekar att anställa så finns en möjlighet för er att välja rekryteringsmetod efter erat behov
-                tidsmässigt och ekonomiskt. Ni kan såklart välja en heltid/deltidsanställning enligt det vanliga
-                sättet om ni vill. Ni har även en möjlighet att prova med en praktik på tex 50% efter det behov ni
-                har. Vi kan sedan diskutera om ni tycker det har fungerat bra för alla parter och justera. Ni kommer
-                att ha möjlighet till stöd enligt dom reglerna som gäller. Jag är godkänd för
-                Anställningsstöd/Lönebidrag/Lönestöd vilket namn det blir på aktiviteten är senare mer en formalitet
-                men ni måste då ändå uppfylla vissa krav.
+                Om ni tvekar att anställa så finns en möjlighet för er att välja rekryteringsmetod efter erat behov tidsmässigt och ekonomiskt. Ni kan såklart välja en deltidsanställning 50% enligt det vanliga sättet om ni vill. <strong>Ni har även en möjlighet att prova med en praktik på tex 50% efter det behov ni har.</strong> Vi kan sedan diskutera om ni tycker det har fungerat bra för alla parter och justera. 
+                Ni kommer att ha möjlighet till stöd enligt dom reglerna som gäller. Jag är godkänd för Anställningsstöd/Lönebidrag/Lönestöd vilket namn det blir på aktiviteten är senare mer en formalitet men ni måste då ändå uppfylla vissa krav.
               </p>
 
               <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                Då jag varit borta från arbetsmarknaden en tid så kommer jag givetvis att behöva komma in i arbetet på
-                ett realistiskt sätt. Heltid är målsättningen här, så beroende på vem du är som läser detta så kanske
-                du som exempel redan valt deltid som utgångspunkt och en provanställning. Då behöver vi inte tänka på
-                praktik eller liknande utan ni gör bara det ni brukar göra. Samma sak gäller såklart vid heltid och
-                provanställning om ni vill det.
+                Då jag varit borta från arbetsmarknaden en tid så kommer jag givetvis att behöva komma in i arbetet på ett realistiskt sätt. Heltid är målsättningen här, så beroende på vem du är som läser detta så kanske du som exempel redan valt deltid som utgångspunkt och en provanställning. Då behöver vi inte tänka på praktik eller liknande utan ni gör bara det ni brukar göra. Samma sak gäller såklart vid heltid och provanställning om ni vill det.
               </p>
 
               <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                Om ni undrar vad detta erbjudande innebär kan ni få mer information från min jobbcoach på IPS
-                (Individanpassat stöd till arbete) som kommer att sköta kontakten med er.
+                Om ni undrar vad detta erbjudande innebär kan ni få mer information från min jobbcoach på IPS (Individanpassat stöd till arbete) som kommer att sköta kontakten med er.
               </p>
 
               <div className="bg-gray-100 rounded-lg p-3 sm:p-4 space-y-2">
@@ -304,26 +294,16 @@ export default function Page() {
 
               <div className="p-4 sm:p-6 space-y-4">
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Om ni tvekar att anställa så finns en möjlighet för er att välja rekryteringsmetod efter erat behov
-                  tidsmässigt och ekonomiskt. Ni kan såklart välja en heltid/deltidsanställning enligt det vanliga
-                  sättet om ni vill. Ni har även en möjlighet att prova med en praktik på tex 50% efter det behov ni
-                  har. Vi kan sedan diskutera om ni tycker det har fungerat bra för alla parter och justera. Ni kommer
-                  att ha möjlighet till stöd enligt dom reglerna som gäller. Jag är godkänd för
-                  Anställningsstöd/Lönebidrag/Lönestöd vilket namn det blir på aktiviteten är senare mer en formalitet
-                  men ni måste då ändå uppfylla vissa krav.
+                  Om ni tvekar att anställa så finns en möjlighet för er att välja rekryteringsmetod efter erat behov tidsmässigt och ekonomiskt. Ni kan såklart välja en deltidsanställning 50% enligt det vanliga sättet om ni vill. <strong>Ni har även en möjlighet att prova med en praktik på tex 50% efter det behov ni har.</strong> Vi kan sedan diskutera om ni tycker det har fungerat bra för alla parter och justera. 
+                  Ni kommer att ha möjlighet till stöd enligt dom reglerna som gäller. Jag är godkänd för Anställningsstöd/Lönebidrag/Lönestöd vilket namn det blir på aktiviteten är senare mer en formalitet men ni måste då ändå uppfylla vissa krav.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Då jag varit borta från arbetsmarknaden en tid så kommer jag givetvis att behöva komma in i arbetet på
-                  ett realistiskt sätt. Heltid är målsättningen här, så beroende på vem du är som läser detta så kanske
-                  du som exempel redan valt deltid som utgångspunkt och en provanställning. Då behöver vi inte tänka på
-                  praktik eller liknande utan ni gör bara det ni brukar göra. Samma sak gäller såklart vid heltid och
-                  provanställning om ni vill det.
+                  Då jag varit borta från arbetsmarknaden en tid så kommer jag givetvis att behöva komma in i arbetet på ett realistiskt sätt. Heltid är målsättningen här, så beroende på vem du är som läser detta så kanske du som exempel redan valt deltid som utgångspunkt och en provanställning. Då behöver vi inte tänka på praktik eller liknande utan ni gör bara det ni brukar göra. Samma sak gäller såklart vid heltid och provanställning om ni vill det.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Om ni undrar vad detta erbjudande innebär kan ni få mer information från min jobbcoach på IPS
-                  (Individanpassat stöd till arbete) som kommer att sköta kontakten med er.
+                  Om ni undrar vad detta erbjudande innebär kan ni få mer information från min jobbcoach på IPS (Individanpassat stöd till arbete) som kommer att sköta kontakten med er.
                 </p>
 
                 <div className="bg-gray-100 rounded-lg p-3 sm:p-4 space-y-2">

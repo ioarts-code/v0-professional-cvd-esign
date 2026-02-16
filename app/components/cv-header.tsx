@@ -17,7 +17,7 @@ export function CVHeader({ name, title, email, phone, location, linkedin, github
       <div className="flex-1 w-full">
         <div className="border-black border-b-0 mb-0 pb-2.5 text-center sm:text-center">
           <h1 className="tracking-tight text-black text-2xl sm:text-3xl mb-0 font-light">{name}</h1>
-          <p className="text-base sm:text-xl text-black font-light mt-1">{title}</p>
+          <p className="text-sm sm:text-base text-black font-semibold mt-2 tracking-wide">Arbetskraft Eller Praktikant på Deltid?</p>
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 relative border-solid border-black pt-2.5 pb-2.5 rounded-lg mt-3 sm:mt-2 px-3 sm:px-5 border-2 sm:justify-evenly">
