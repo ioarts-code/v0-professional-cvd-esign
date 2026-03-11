@@ -3,8 +3,8 @@ import { ExternalLink } from "lucide-react"
 interface PortfolioItemProps {
   title: string
   description: string
-  tech: "hygraph" | "sanity" | "contentful" | "wordpress" | "webflow"
-  url: string
+  tech: "hygraph" | "sanity" | "contentful" | "wordpress" | "webflow" | "figma"
+  url?: string
 }
 
 export function PortfolioItem({ title, description, tech, url }: PortfolioItemProps) {

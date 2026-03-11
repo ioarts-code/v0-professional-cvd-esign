@@ -12,6 +12,7 @@ import { CertificationItem } from "./components/certification-item"
 
 export default function Page() {
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isFigmaLightboxOpen, setIsFigmaLightboxOpen] = useState(false)
 
   const experiences = [
     {
@@ -46,6 +47,12 @@ export default function Page() {
       description: "Woocommerce och Elementor",
       tech: "wordpress" as const,
       url: "https://www.ioarts.ink",
+    },
+    {
+      title: "Figma",
+      description: "Mina Figma pusselbitar",
+      tech: "figma" as const,
+      isLightbox: true,
     },
     {
       title: "Next.js Hygraph",
@@ -205,13 +212,27 @@ export default function Page() {
           <Section title="Portfolio">
             <div className="space-y-3">
               {portfolio.map((project, index) => (
-                <PortfolioItem
-                  key={index}
-                  title={project.title}
-                  description={project.description}
-                  tech={project.tech}
-                  url={project.url}
-                />
+                project.isLightbox ? (
+                  <div
+                    key={index}
+                    onClick={() => setIsFigmaLightboxOpen(true)}
+                    className="cursor-pointer"
+                  >
+                    <PortfolioItem
+                      title={project.title}
+                      description={project.description}
+                      tech={project.tech}
+                    />
+                  </div>
+                ) : (
+                  <PortfolioItem
+                    key={index}
+                    title={project.title}
+                    description={project.description}
+                    tech={project.tech}
+                    url={project.url}
+                  />
+                )
               ))}
             </div>
           </Section>
@@ -271,6 +292,29 @@ export default function Page() {
             </div>
           </Section>
         </div>
+
+        {isFigmaLightboxOpen && (
+          <div
+            className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-4"
+            onClick={() => setIsFigmaLightboxOpen(false)}
+          >
+            <div className="relative max-w-full max-h-full">
+              <button
+                onClick={() => setIsFigmaLightboxOpen(false)}
+                className="absolute -top-12 right-0 text-white hover:text-rose-300 transition-colors"
+                aria-label="Stäng"
+              >
+                <X className="w-8 h-8" />
+              </button>
+              <img
+                src="/images/figma-portfolio.jpg"
+                alt="Mina Figma pusselbitar"
+                className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
+                onClick={(e) => e.stopPropagation()}
+              />
+            </div>
+          </div>
+        )}
 
         {isModalOpen && (
           <div
