@@ -74,7 +74,7 @@ export default function Page() {
     },
     {
       title: "Next.js Contentful",
-      description: "Gjord med V0 från scratch med Contentful som CMS",
+      description: "Gjord i V0 med Contentful som CMS",
       tech: "contentful" as const,
       url: "https://v0-mittcontentful.vercel.app",
     },
