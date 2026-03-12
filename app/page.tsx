@@ -154,15 +154,7 @@ export default function Page() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2 text-xl">Webbutveckling</h3>
                 <p className="text-gray-700 leading-relaxed font-sans">
-                  Har intresse för Webbutveckling sedan ca 10 år tillbaka. Har ganska mycket erfarenhet av Wordpress med
-                  Elementor, Woocommerce. Gjorde en sida åt Content Talarbyrån för 8 år sedan då jag jobbade med just
-                  Wordpress. Idag alternerar jag mellan verktygen
-                  Webflow-Wordpress-Next.js-Astro-Figma-Locofy-V0-Bolt.new-Copilot och som CMS har jag använt Hygraph,
-                  Contentful, Sanity och Wordpress RestAPI. Sidorna i min portfolio är gjorda i dessa verktyg och med
-                  mitt hobby-project Ioarts som exempel. Jag har sett att Umbraco verkar vara vanligt. Har kikat lite på
-                  det och kan tänka mig att lära mig det vid en eventuell praktik. Är bekant med flertalet
-                  hostinglösningar som Vercel, Netlify, Godaddy, Wp-Engine, Simply, Hostinger och jag använder Github
-                  samt VScode såklart även om det blir mest V0 nu.
+                  Har intresse för Webbutveckling sedan ca 10 år tillbaka. Har ganska mycket erfarenhet av Wordpress med Elementor, Woocommerce. Gjorde en sida åt Content Talarbyrån för 8 år sedan då jag jobbade med just Wordpress. Idag alternerar jag mellan verktygen Webflow-Wordpress-Next.js-Astro-Figma-Locofy-V0-Bolt.new-Copilot och som CMS har jag använt Hygraph, Contentful, Sanity och Wordpress RestAPI. Sidorna i min portfolio är gjorda i dessa verktyg och med mitt hobby-project Ioarts som ett exempel. Är bekant med flertalet hostinglösningar som Vercel, Netlify, Godaddy, Wp-Engine, Simply, Hostinger. Använder Github samt VScode i mitt arbete. Är väldigt intresserad av att lära mig mer om Figma då jag använder det för att skapa mina sidor. Allt innehåll i min portfolio är skapat utan ett färdigt tema och jag använder teman endast som inspiration.
                 </p>
               </div>
 
