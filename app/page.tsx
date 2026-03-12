@@ -44,43 +44,43 @@ export default function Page() {
   const portfolio = [
     {
       title: "Wordpress",
-      description: "Woocommerce och Elementor",
+      description: "Woocommerce och Elementor.",
       tech: "wordpress" as const,
       url: "https://www.ioarts.ink",
     },
     {
       title: "Figma",
-      description: "Mina Figma pusselbitar",
+      description: "Här finns delarna till mina sidor, klicka för bild.",
       tech: "figma" as const,
       isLightbox: true,
     },
     {
       title: "Next.js Hygraph",
-      description: "Moddat tema för Shopify i V0. Hygraph som CMS",
+      description: "Gjord i V0 med Hygraph som CMS.",
       tech: "hygraph" as const,
       url: "https://v0-hygraphioarts2v0.vercel.app",
     },
     {
       title: "Next.js Sanity",
-      description: "Gjord med V0. Har hämtat designen från Wordpress med Figma",
+      description: "Gjord i V0 med Sanity som CMS.",
       tech: "sanity" as const,
       url: "https://v0-mittsanity2.vercel.app",
     },
     {
       title: "Sanity Dashboard",
-      description: "Till min Sanity, gjord i V0. Read only",
+      description: "Till min Sanity, gjord i V0. Read only.",
       tech: "sanity" as const,
       url: "https://v0-sanity-dashboard.vercel.app",
     },
     {
       title: "Next.js Contentful",
-      description: "Gjord med V0 från scratch med Contentful som CMS",
+      description: "Gjord i V0 med Contentful som CMS.",
       tech: "contentful" as const,
       url: "https://v0-mittcontentful.vercel.app",
     },
     {
       title: "Webflow",
-      description: "Webflow: En showcase för mina motiv",
+      description: "Webflow med CMS.",
       tech: "webflow" as const,
       url: "https://ioartseu.webflow.io",
     },
@@ -154,15 +154,7 @@ export default function Page() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2 text-xl">Webbutveckling</h3>
                 <p className="text-gray-700 leading-relaxed font-sans">
-                  Har intresse för Webbutveckling sedan ca 10 år tillbaka. Har ganska mycket erfarenhet av Wordpress med
-                  Elementor, Woocommerce. Gjorde en sida åt Content Talarbyrån för 8 år sedan då jag jobbade med just
-                  Wordpress. Idag alternerar jag mellan verktygen
-                  Webflow-Wordpress-Next.js-Astro-Figma-Locofy-V0-Bolt.new-Copilot och som CMS har jag använt Hygraph,
-                  Contentful, Sanity och Wordpress RestAPI. Sidorna i min portfolio är gjorda i dessa verktyg och med
-                  mitt hobby-project Ioarts som exempel. Jag har sett att Umbraco verkar vara vanligt. Har kikat lite på
-                  det och kan tänka mig att lära mig det vid en eventuell praktik. Är bekant med flertalet
-                  hostinglösningar som Vercel, Netlify, Godaddy, Wp-Engine, Simply, Hostinger och jag använder Github
-                  samt VScode såklart även om det blir mest V0 nu.
+                  Har intresse för Webbutveckling sedan ca 10 år tillbaka. Har ganska mycket erfarenhet av Wordpress med Elementor, Woocommerce. Gjorde en sida åt Content Talarbyrån för 8 år sedan då jag jobbade med just Wordpress. Idag alternerar jag mellan verktygen Webflow-Wordpress-Next.js-Astro-Figma-Locofy-V0-Bolt.new-Copilot och som CMS har jag använt Hygraph, Contentful, Sanity och Wordpress RestAPI. Sidorna i min portfolio är gjorda i dessa verktyg och med mitt hobby-project Ioarts som ett exempel. Är bekant med flertalet hostinglösningar som Vercel, Netlify, Godaddy, Wp-Engine, Simply, Hostinger. Använder Github samt VScode i mitt arbete. Är väldigt intresserad av att lära mig mer om Figma då jag använder det för att skapa mina sidor. Allt innehåll i min portfolio är skapat utan ett färdigt tema och jag använder teman endast som inspiration.
                 </p>
               </div>
 
