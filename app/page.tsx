@@ -62,7 +62,7 @@ export default function Page() {
     },
     {
       title: "Next.js Sanity",
-      description: "Gjord med V0. Har hämtat designen från Wordpress med Figma",
+      description: "Gjord i V0 med Sanity som CMS",
       tech: "sanity" as const,
       url: "https://v0-mittsanity2.vercel.app",
     },
