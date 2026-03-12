@@ -44,7 +44,7 @@ export default function Page() {
   const portfolio = [
     {
       title: "Wordpress",
-      description: "Woocommerce och Elementor",
+      description: "Woocommerce och Elementor.",
       tech: "wordpress" as const,
       url: "https://www.ioarts.ink",
     },
@@ -56,31 +56,31 @@ export default function Page() {
     },
     {
       title: "Next.js Hygraph",
-      description: "Gjord i V0 med Hygraph som CMS",
+      description: "Gjord i V0 med Hygraph som CMS.",
       tech: "hygraph" as const,
       url: "https://v0-hygraphioarts2v0.vercel.app",
     },
     {
       title: "Next.js Sanity",
-      description: "Gjord i V0 med Sanity som CMS",
+      description: "Gjord i V0 med Sanity som CMS.",
       tech: "sanity" as const,
       url: "https://v0-mittsanity2.vercel.app",
     },
     {
       title: "Sanity Dashboard",
-      description: "Till min Sanity, gjord i V0. Read only",
+      description: "Till min Sanity, gjord i V0. Read only.",
       tech: "sanity" as const,
       url: "https://v0-sanity-dashboard.vercel.app",
     },
     {
       title: "Next.js Contentful",
-      description: "Gjord i V0 med Contentful som CMS",
+      description: "Gjord i V0 med Contentful som CMS.",
       tech: "contentful" as const,
       url: "https://v0-mittcontentful.vercel.app",
     },
     {
       title: "Webflow",
-      description: "Webflow med CMS",
+      description: "Webflow med CMS.",
       tech: "webflow" as const,
       url: "https://ioartseu.webflow.io",
     },
