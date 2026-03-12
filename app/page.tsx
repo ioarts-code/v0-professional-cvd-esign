@@ -50,7 +50,7 @@ export default function Page() {
     },
     {
       title: "Figma",
-      description: "Mina Figma pusselbitar",
+      description: "Här finns delarna till mina sidor, klicka för bild.",
       tech: "figma" as const,
       isLightbox: true,
     },
