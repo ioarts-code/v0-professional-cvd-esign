@@ -80,7 +80,7 @@ export default function Page() {
     },
     {
       title: "Webflow",
-      description: "Webflow: En showcase för mina motiv",
+      description: "Webflow med CMS",
       tech: "webflow" as const,
       url: "https://ioartseu.webflow.io",
     },
